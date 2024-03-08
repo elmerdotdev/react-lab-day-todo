@@ -1,0 +1,20 @@
+li.todo__list_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: .5rem 0;
+  padding: .75rem 1rem;
+  background-color: #7d7670;
+}
+
+li.todo__list_item a {
+  display: inline-block;
+  padding: .5rem 1rem;
+  background-color: red;
+  color: white;
+  transition: background-color .2s ease-in-out;
+}
+
+li.todo__list_item a:hover {
+  background-color: #ff7474;
+}

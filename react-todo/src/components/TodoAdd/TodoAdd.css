@@ -1,0 +1,12 @@
+.todo__add {
+  margin-top: 1rem;
+}
+
+.todo__add form {
+  display: flex;
+  gap: 1rem;
+}
+
+.todo__add form input[type="text"] {
+  flex: 1;
+}

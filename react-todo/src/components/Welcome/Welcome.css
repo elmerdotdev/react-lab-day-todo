@@ -1,0 +1,21 @@
+.welcome {
+  display: flex;
+  justify-content: space-between;
+}
+
+.welcome h2 {
+  margin: 0;
+}
+
+.welcome a {
+  display: inline-block;
+  padding: .5rem 1rem;
+  background-color: red;
+  color: white;
+  transition: background-color .2s ease-in-out;
+}
+
+.welcome a:hover {
+  background-color: #ff7474;
+  color: white;
+}

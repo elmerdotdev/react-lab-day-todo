@@ -1,0 +1,9 @@
+.todo__list {
+  margin: 2rem 0;
+}
+
+.todo__list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
